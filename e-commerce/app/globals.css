@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.footer {
-    width: 22px;
-    height: 20.64px;
-}
-
-@media (min-width: 768px) {
-    .footer {
-        width: 30px;
-        height: 30px;
-    }
-}
+ .footer{
+    @apply w-[22px] h-[20.64px] md:w-[30px] md:h-[30px] hover:cursor-pointer hover:scale-125 duration-1000;
+ }
