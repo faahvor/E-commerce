@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.footer {
+    width: 22px;
+    height: 20.64px;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        width: 30px;
+        height: 30px;
+    }
+}
